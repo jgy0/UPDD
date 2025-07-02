@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="776225d8-94f6-40f5-bd17-66ca47dfd474" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2o5jaa7N9RVMmsjD8YlfytXVv0W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in test_real.py.executor": "Run",
+    "Python.Agent-Attention.executor": "Run",
+    "Python.Agent_Attention (1).executor": "Run",
+    "Python.BM3D.executor": "Run",
+    "Python.CMSFFT.executor": "Debug",
+    "Python.PPM.executor": "Run",
+    "Python.PPM2.executor": "Debug",
+    "Python.PPMW.executor": "Debug",
+    "Python.SGFMT.executor": "Debug",
+    "Python.Ushape_Trans.executor": "Debug",
+    "Python.deal_Pimage.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_real.executor": "Run",
+    "Python.test_real2.executor": "Run",
+    "Python.test_real_baseline.executor": "Run",
+    "Python.test_real_opt_data.executor": "Run",
+    "Python.train.executor": "Run",
+    "Python.train_domain.executor": "Run",
+    "Python.train_domain_batchsize=6.executor": "Run",
+    "Python.train_real_underwater.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "D:/code/python/U-shape_Transformer_for_Underwater_Image_Enhancement-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="Ushape_Trans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="U-shape_Transformer_for_Underwater_Image_Enhancement-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/net" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/net/Ushape_Trans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="U-shape_Transformer_for_Underwater_Image_Enhancement-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_real2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="U-shape_Transformer_for_Underwater_Image_Enhancement-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_real2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="U-shape_Transformer_for_Underwater_Image_Enhancement-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_domain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="U-shape_Transformer_for_Underwater_Image_Enhancement-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_domain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.train_domain" />
+        <item itemvalue="Python.test_real2" />
+        <item itemvalue="Python.Ushape_Trans" />
+        <item itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="776225d8-94f6-40f5-bd17-66ca47dfd474" name="Changes" comment="" />
+      <created>1730166394598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730166394598</updated>
+      <workItem from="1730166395646" duration="6455000" />
+      <workItem from="1730183959699" duration="11000" />
+      <workItem from="1730184848124" duration="10622000" />
+      <workItem from="1730292375284" duration="1324000" />
+      <workItem from="1730293923998" duration="30549000" />
+      <workItem from="1730803915219" duration="125000" />
+      <workItem from="1730804131700" duration="194000" />
+      <workItem from="1730981734799" duration="5789000" />
+      <workItem from="1730987560137" duration="13678000" />
+      <workItem from="1731071036561" duration="2284000" />
+      <workItem from="1731302653720" duration="10000" />
+      <workItem from="1731314616763" duration="677000" />
+      <workItem from="1731390460297" duration="55831000" />
+      <workItem from="1731748116613" duration="3027000" />
+      <workItem from="1731897749050" duration="6804000" />
+      <workItem from="1731926674419" duration="45000" />
+      <workItem from="1731998031493" duration="8719000" />
+      <workItem from="1733120432349" duration="125000" />
+      <workItem from="1733120997932" duration="744000" />
+      <workItem from="1734352604812" duration="14826000" />
+      <workItem from="1734659020892" duration="16000" />
+      <workItem from="1734932759903" duration="20628000" />
+      <workItem from="1735005682959" duration="63291000" />
+      <workItem from="1735525582485" duration="19485000" />
+      <workItem from="1735715169541" duration="2490000" />
+      <workItem from="1735805271679" duration="5596000" />
+      <workItem from="1735891994021" duration="28283000" />
+      <workItem from="1736407361042" duration="19803000" />
+      <workItem from="1736498488637" duration="11773000" />
+      <workItem from="1736582036488" duration="12152000" />
+      <workItem from="1736750142412" duration="180270000" />
+      <workItem from="1741057589803" duration="69943000" />
+      <workItem from="1741591840132" duration="266432000" />
+      <workItem from="1744201689471" duration="18000" />
+      <workItem from="1744339323414" duration="2889000" />
+      <workItem from="1744698533705" duration="868000" />
+      <workItem from="1744717684853" duration="8000" />
+      <workItem from="1744724722017" duration="1774000" />
+      <workItem from="1744767048453" duration="1276000" />
+      <workItem from="1744940773210" duration="35777000" />
+      <workItem from="1745305360661" duration="4950000" />
+      <workItem from="1745389592626" duration="71748000" />
+      <workItem from="1746522625353" duration="658000" />
+      <workItem from="1746583823027" duration="907000" />
+      <workItem from="1746606102233" duration="13000" />
+      <workItem from="1746696067617" duration="3227000" />
+      <workItem from="1746754284538" duration="30606000" />
+      <workItem from="1747204548667" duration="10000" />
+      <workItem from="1747618383607" duration="491000" />
+      <workItem from="1747619049489" duration="1974000" />
+      <workItem from="1747832185917" duration="20000" />
+      <workItem from="1747901292971" duration="1341000" />
+      <workItem from="1747998939357" duration="10197000" />
+      <workItem from="1748267365865" duration="1548000" />
+      <workItem from="1748424666531" duration="300000" />
+      <workItem from="1748424975032" duration="1312000" />
+      <workItem from="1749001322116" duration="12000" />
+      <workItem from="1749533484815" duration="1569000" />
+      <workItem from="1749609372239" duration="702000" />
+      <workItem from="1749647005717" duration="2658000" />
+      <workItem from="1750246135038" duration="254000" />
+      <workItem from="1750246755768" duration="972000" />
+      <workItem from="1750399863663" duration="705000" />
+      <workItem from="1750639820859" duration="3288000" />
+      <workItem from="1750644168789" duration="2676000" />
+      <workItem from="1750767742715" duration="705000" />
+      <workItem from="1750840862241" duration="23000" />
+      <workItem from="1751269237452" duration="10000" />
+      <workItem from="1751380641411" duration="2673000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/net/SGFMT.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/net/utils.py</url>
+          <line>173</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_real_opt_data.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$Agent_Attention.coverage" NAME="Agent-Attention Coverage Results" MODIFIED="1736422989478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$train_domain.coverage" NAME="train_domain Coverage Results" MODIFIED="1750641833867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$test_real2.coverage" NAME="test_real2 Coverage Results" MODIFIED="1749534001858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$test.coverage" NAME="test Coverage Results" MODIFIED="1750642428148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$Ushape_Trans.coverage" NAME="Ushape_Trans Coverage Results" MODIFIED="1745827088970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$PPMW.coverage" NAME="PPMW Coverage Results" MODIFIED="1734485923759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$test_real.coverage" NAME="test_real Coverage Results" MODIFIED="1744946302642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$BM3D.coverage" NAME="BM3D Coverage Results" MODIFIED="1743477688869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utility" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$PPM2.coverage" NAME="PPM2 Coverage Results" MODIFIED="1734938921399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$test_real_baseline.coverage" NAME="test_real_baseline Coverage Results" MODIFIED="1742866581266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$CMSFFT.coverage" NAME="CMSFFT Coverage Results" MODIFIED="1731567595076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$train_real_underwater.coverage" NAME="train_real_underwater Coverage Results" MODIFIED="1741955590918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$train_domain_batchsize_6.coverage" NAME="train_domain_batchsize=6 Coverage Results" MODIFIED="1742460200996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$Agent_Attention__1_.coverage" NAME="Agent_Attention (1) Coverage Results" MODIFIED="1736497620992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$test_real_opt_data.coverage" NAME="test_real_opt_data Coverage Results" MODIFIED="1744959974448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$PPM.coverage" NAME="PPM Coverage Results" MODIFIED="1739759068655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$deal_Pimage.coverage" NAME="deal_Pimage Coverage Results" MODIFIED="1743401468119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_deal" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$.coverage" NAME=" Coverage Results" MODIFIED="1744946165893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$SGFMT.coverage" NAME="SGFMT Coverage Results" MODIFIED="1734937864737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" />
+    <SUITE FILE_PATH="coverage/U_shape_Transformer_for_Underwater_Image_Enhancement_main$train.coverage" NAME="train Coverage Results" MODIFIED="1745235559290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
