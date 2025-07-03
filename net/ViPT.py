@@ -77,31 +77,7 @@ class Fovea(nn.Module):
         return output
 
 
-# class Prompt_block(nn.Module, ):
-#     def __init__(self, inplanes=512, hide_channel=8, smooth=False):
-#         super(Prompt_block, self).__init__()
-#         self.conv0_0 = nn.Conv2d(in_channels=inplanes, out_channels=hide_channel, kernel_size=1, stride=1, padding=0)
-#         self.conv0_1 = nn.Conv2d(in_channels=inplanes, out_channels=hide_channel, kernel_size=1, stride=1, padding=0)
-#         self.conv1x1 = nn.Conv2d(in_channels=hide_channel, out_channels=inplanes, kernel_size=1, stride=1, padding=0)
-#         self.fovea = Fovea(smooth=smooth)
-#
-#         for p in self.parameters():
-#             if p.dim() > 1:
-#                 nn.init.xavier_uniform_(p)
-#
-#     def forward(self, x):
-#         """ Forward pass with input x. """
-#         B, C, W, H = x.shape
-#         x0 = x[:, 0:int(C/2), :, :].contiguous()
-#         x0 = self.conv0_0(x0)
-#         x1 = x[:, int(C/2):, :, :].contiguous()
-#         x1 = self.conv0_1(x1)
-#         x0 = self.fovea(x0) + x1
-#
-#         return self.conv1x1(x0)
-"""
-Utrans6（agent-attention）
-"""
+
 
 class Prompt_block(nn.Module, ):
     def __init__(self, inplanes=512, hide_channel=8, smooth=False):
@@ -137,82 +113,5 @@ class Prompt_block(nn.Module, ):
 
         return self.conv1x1(x0)
 
-"""
-Utrans8  VIPT改版   agent in prompt 
-"""
-# class Prompt_block(nn.Module, ):
-#     def __init__(self, inplanes=512, hide_channel=8, smooth=False):
-#         super(Prompt_block, self).__init__()
-#         self.conv0_0 = nn.Conv2d(in_channels=inplanes, out_channels=hide_channel, kernel_size=1, stride=1, padding=0)
-#         self.conv0_1 = nn.Conv2d(in_channels=inplanes, out_channels=hide_channel, kernel_size=1, stride=1, padding=0)
-#         self.conv0_2 = nn.Conv2d(in_channels=inplanes, out_channels=hide_channel, kernel_size=1, stride=1, padding=0)
-#         self.conv1x1 = nn.Conv2d(in_channels=hide_channel, out_channels=inplanes, kernel_size=1, stride=1, padding=0)
-#         self.fovea = Fovea(smooth=smooth)
-#         self.channel_attention1=SqueezeExcitation()
-#         self.channel_attention2 = SqueezeExcitation()
-#
-#         # 添加可学习的权重
-#         self.weight1 = nn.Parameter(torch.ones(1))
-#         self.weight2 = nn.Parameter(torch.ones(1))
-#
-#         for p in self.parameters():
-#             if p.dim() > 1:
-#                 nn.init.xavier_uniform_(p)
-#
-#     def forward(self, x):
-#         """ Forward pass with input x. """
-#         B, C, W, H = x.shape #1 2048 16 16
-#         x0 = x[:, 0:int(C/4), :, :].contiguous()  # 1,512,16,16
-#         x0 = self.conv0_0(x0)  # 1,8,16,16
-#         x1 = x[:, int(C/4):int(2*C/4), :, :].contiguous() #  init feature/ mix feature
-#         x1 = self.conv0_1(x1)  # 1,8,16,16
-#         x2 = x[:, int(2*C/4):int(3*C/4), :, :].contiguous()  # 1,512,16,16   AOP
-#         x2_later=self.channel_attention1(x2)
-#         x2_o=self.conv0_2(x2_later)
-#         # aop传到下一轮
-#
-#
-#         x3 = x[:, int(3*C/4):, :, :].contiguous()# 1,512,16,16 DOP
-#         x3_later=self.channel_attention2(x3)
-#         x3_o=self.conv0_2(x3_later)# 1，8，16，16
-#         # dop传到下一轮
-#
-#         x0 = self.fovea(x0) + x1+ self.weight1 * x2_o + self.weight2 * x3_o
-#         # x0 = self.fovea(x0) + x1 +  x2_o +  x3_o
-#         # x0 = x0 + x1 + self.weight1 * x2_o + self.weight2 * x3_o
-#         return self.conv1x1(x0),x2_later,x3_later
 
 
-"""
-Utrans9  
-"""
-# class Prompt_block(nn.Module, ):
-#     def __init__(self, inplanes=512, hide_channel=8, smooth=False):
-#         super(Prompt_block, self).__init__()
-#         self.conv0_0 = nn.Conv2d(in_channels=inplanes, out_channels=hide_channel, kernel_size=1, stride=1, padding=0)
-#         self.conv0_1 = nn.Conv2d(in_channels=inplanes, out_channels=hide_channel, kernel_size=1, stride=1, padding=0)
-#         self.conv0_2 = nn.Conv2d(in_channels=inplanes, out_channels=hide_channel, kernel_size=1, stride=1, padding=0)
-#         self.conv0_3 = nn.Conv2d(in_channels=inplanes, out_channels=hide_channel, kernel_size=1, stride=1, padding=0)
-#         self.conv1x1 = nn.Conv2d(in_channels=hide_channel, out_channels=inplanes, kernel_size=1, stride=1, padding=0)
-#         self.conv1x2 = nn.Conv2d(in_channels=hide_channel, out_channels=inplanes, kernel_size=1, stride=1, padding=0)
-#         self.conv1x3 = nn.Conv2d(in_channels=hide_channel, out_channels=inplanes, kernel_size=1, stride=1, padding=0)
-#         self.fovea = Fovea(smooth=smooth)
-#
-#         for p in self.parameters():
-#             if p.dim() > 1:
-#                 nn.init.xavier_uniform_(p)
-#
-#     def forward(self, x):
-#         """ Forward pass with input x. """
-#         B, C, W, H = x.shape #1 2048 16 16
-#         x0 = x[:, 0:int(C/4), :, :].contiguous()  # 1,512,16,16
-#         x0 = self.conv0_0(x0)  # 1,8,16,16
-#         x1 = x[:, int(C/4):int(2*C/4), :, :].contiguous() #  init feature/ mix feature
-#         x1 = self.conv0_1(x1)  # 1,8,16,16
-#         x2 = x[:, int(2*C/4):int(3*C/4), :, :].contiguous()  # 1,512,16,16   AOP
-#         x2 = self.conv0_2(x2)  # 1,8,16,16
-#         x3 = x[:, int(3*C/4):, :, :].contiguous()# 1,512,16,16 DOP
-#         x3 = self.conv0_3(x3)  # 1,8,16,16
-#
-#         x0=self.fovea(x0)+x1+x2+x3
-#         return self.conv1x1(x0),self.conv1x2(x2),self.conv1x3(x3)
